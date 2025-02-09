@@ -1,5 +1,5 @@
 # Bank-Library-System
-passbook library project for PwC technical assessment
+bank's library project for PwC technical assessment
 
 ## Database Schema
 <pre> 
