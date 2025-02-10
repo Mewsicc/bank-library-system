@@ -1,5 +1,5 @@
 # Bank-Library-System
-bank's library project for PwC technical assessment
+Bank's library project for PwC technical assessment.
 
 ## Database Schema
 <pre> 
@@ -60,7 +60,7 @@ curl --location --request GET 'localhost:8080/books/1' \
 --data-raw ''
 ```
 ### 3. /books/name/{name}
-This API returns a list of books by name
+This API returns a list of books by name.
 <pre> 
  request:  
   method: GET
@@ -104,7 +104,7 @@ curl --location --request PUT 'localhost:8080/books/2' \
 ```
 
 ### 5. /books/{id} (delete)
-This  API deletes a book by id
+This  API deletes a book by id.
 <pre> 
  request:  
   method: DELETE
