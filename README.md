@@ -17,7 +17,7 @@ docker compose up
 This app consists of 5 APIs.
 
 ### 1. /books
-This API insert a record to books table  
+This API inserts a record to books table  
 <pre> 
  request:  
   method: POST 
@@ -43,7 +43,7 @@ curl --location --request POST 'localhost:8080/books' \
 ```
 
 ### 2. /books/{id}
-This API return book by id.
+This API returns a book by id.
 <pre> 
  request:  
   method: GET
@@ -60,7 +60,7 @@ curl --location --request GET 'localhost:8080/books/1' \
 --data-raw ''
 ```
 ### 3. /books/name/{name}
-This API return a list of book by name
+This API returns a list of books by name
 <pre> 
  request:  
   method: GET
@@ -78,7 +78,7 @@ curl --location --request GET 'localhost:8080/books/name/book1' \
 ```
 ### 4. /books/{id} (update)
 
-This API update a book by id.
+This API updates a book by id.
 <pre> 
  request:  
   method: PUT
@@ -104,7 +104,7 @@ curl --location --request PUT 'localhost:8080/books/2' \
 ```
 
 ### 5. /books/{id} (delete)
-This  API delete book by id
+This  API deletes a book by id
 <pre> 
  request:  
   method: DELETE

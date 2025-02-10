@@ -2,7 +2,6 @@ package com.navachart.library_system.controller;
 
 import com.navachart.library_system.models.Book;
 import com.navachart.library_system.models.JsonResp;
-import com.navachart.library_system.models.LogMsg;
 import com.navachart.library_system.services.BookService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
