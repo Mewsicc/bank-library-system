@@ -1,5 +1,5 @@
 # Bank-Library-System
-Bank's library project for technical assessment.
+Bank's library project for PwC technical assessment.
 
 ## Database Schema
 <pre> 
